@@ -5,9 +5,9 @@ from wtforms import StringField, IntegerField, SubmitField
 
 class AddForm(FlaskForm):
 
-    name = StringField('Please Enter Your Name:')
-    item = StringField('Enter the item:')
-    review = StringField('Review')
+    name = StringField('Enter quirmentsName :')
+    item = StringField('Enter the item :')
+    review = StringField('Wrtie a Review :')
     submit = SubmitField('Submit!')
 
 
